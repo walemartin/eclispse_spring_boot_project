@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: eclipse-temurin:17-jdk-alpine
 
 steps:
 - task: Maven@3
